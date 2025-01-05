@@ -44,9 +44,12 @@ pipx install numpy #install the library with pipx
 
 
 #### Enabling break system packages option for pip(Risky method)
-Use this command to enabling break system packages for pip
+
 {: .box-warning}
 **Warning**:Allowing pip to bypass system package restrictions can lead to conflicts between system-installed packages and the packages you're trying to install. This can result in broken dependencies, unexpected behavior, or conflicts that may make your system unstable.
+
+
+Use this command to enabling break system packages for pip
 ~~~
 python3 -m pip config set global.break-system-packages true
 ~~~
