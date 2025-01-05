@@ -7,3 +7,4 @@ title: My first post
 tags: [test]
 author: Isa
 ---
+Hello Its my first post!
