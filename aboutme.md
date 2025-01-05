@@ -13,4 +13,4 @@ My name is Isa. I am from Turkiye
 ### My story
 
 - I started programming 1 years ago
-- My goals are low-level systems and developing apps for linux, MacOS X and BSD
+- My goals are low-level systems and developing apps for Linux, MacOS X and BSD
