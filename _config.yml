@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: Isa | Programming Blog
 
 # Your name to show in the footer
-author: Some Person
+author: Isa
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,6 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -35,7 +31,7 @@ navbar-links:
 avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -50,42 +46,10 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "me.isa4@protonmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
-#  medium: yourname
-#  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
-#  bluesky: yourname
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code"
-#  kaggle: yourname
-#  hackerrank: yourname
-#  gitlab: yourname
-#  itchio: yourname
-#  untappd: yourname
+  github: isa-programmer
 
-# If you want your website to generate an RSS feed, provide a description
-# The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
@@ -100,10 +64,9 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
-title-on-all-pages: true
+title-on-all-pages: false
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
