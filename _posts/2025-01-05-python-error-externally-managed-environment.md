@@ -2,7 +2,7 @@
 layout: post
 title: How to solve pip error externally-managed-environment in linux?
 subtitle: pip externally-managed-environment
-thumbnail-img:https://www.python.org/static/img/python-logo.png
+thumbnail-img: https://www.python.org/static/img/python-logo.png
 tags: [python,linux,error,pip,programming]
 author: Isa
 ---
