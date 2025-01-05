@@ -4,7 +4,7 @@ title: About me
 subtitle: About me and my Goals
 ---
 
-My name is Isa. From Turkiye
+My name is Isa. I am from Turkiye
 
 - I Know python
 - I'm know learning C
