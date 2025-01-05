@@ -30,19 +30,23 @@ note: If you believe this is a mistake, please contact your Python installation 
 hint: See PEP 668 for the detailed specification.
 ~~~
 
-###So how can we solve this error?
+### How can we solve this error?
 
 We have 2 option for this
 
-#### Using pipx
+#### Using pipx(Safe method)
+pipx ensures that your Python packages run in a clean, isolated environment.
+This prevents conflicts with system-wide packages.
 ~~~
 sudo apt install pipx #install pipx
 pipx install numpy #install the library with pipx
 ~~~
 
 
-#### Enabling break system packages option for pip
+#### Enabling break system packages option for pip(Risky method)
 Use this command to enabling break system packages for pip
+{: .box-warning}
+**Warning**:Allowing pip to bypass system package restrictions can lead to conflicts between system-installed packages and the packages you're trying to install. This can result in broken dependencies, unexpected behavior, or conflicts that may make your system unstable.
 ~~~
 python3 -m pip config set global.break-system-packages true
 ~~~
@@ -56,3 +60,5 @@ nano ~/.config/pip/pip.conf #nano or any code editor
 [global]
 break-system-packages = true #change to 'false' if you want disable break system packages
 ~~~
+
+I hope I helped, Thanks for reading!
