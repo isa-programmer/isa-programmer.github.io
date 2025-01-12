@@ -140,3 +140,35 @@ let BeautifulJekyllJS = {
 // 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
+
+
+// Create the first <script> tag
+var script1 = document.createElement('script');
+script1.type = 'text/javascript';
+script1.async = true;
+script1.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7923999363209600';
+script1.setAttribute('crossorigin', 'anonymous');
+
+// Append the first <script> tag to the <head> or <body>
+document.head.appendChild(script1);
+
+// Create the <ins> tag for the ad
+var insTag = document.createElement('ins');
+insTag.className = 'adsbygoogle';
+insTag.style.display = 'block';
+insTag.style.textAlign = 'center';
+insTag.setAttribute('data-ad-layout', 'in-article');
+insTag.setAttribute('data-ad-format', 'fluid');
+insTag.setAttribute('data-ad-client', 'ca-pub-7923999363209600');
+insTag.setAttribute('data-ad-slot', '6926609264');
+
+// Append the <ins> tag where you want the ad to appear, for example, inside a container div
+document.body.appendChild(insTag);  // Or use a more specific element, e.g., document.getElementById('yourContainer').appendChild(insTag);
+
+// Create the second <script> tag to trigger the ad
+var script2 = document.createElement('script');
+script2.type = 'text/javascript';
+script2.text = '(adsbygoogle = window.adsbygoogle || []).push({});';
+
+// Append the second <script> tag to the body or a specific container
+document.body.appendChild(script2);
